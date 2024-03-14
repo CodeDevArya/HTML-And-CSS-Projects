@@ -1,0 +1,1051 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.space-main {
+    height: 98vh;
+    /* width: 100vw;      */
+}
+
+/* nav and email  */
+.main {
+    background-image: url(assets/Images\ for\ netflix/main-bg-img.jpg);
+    height: 98vh;
+    /* width: 100vw; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(3000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.nav-img-in {
+    /* background-color: red; */
+    /* color: red; */
+    width: 155px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    max-width: 74vw;
+    margin: 0 auto;
+    height: 8vh;
+    padding: 7px;
+
+}
+
+.opacity {
+    opacity: 0.81;
+    height: 98vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.nav-lang-option {
+    padding: 8px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    border: 1px solid grey;
+    width: 85px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 32px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-sign-in-option {
+    padding: 8px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    width: 75px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: none;
+    border: none;
+}
+
+.nav-option {
+    display: flex;
+    gap: 15px;
+}
+
+.lang-svg {
+    color: azure;
+}
+
+.written-in {
+    color: white;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    width: 74vw;
+    margin: 0 auto;
+    /* margin-top: 67px; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-written {
+    display: flex;
+    gap: 10px;
+}
+
+.line-1-written {
+    font-size: 4.3rem;
+    font-weight: 900;
+}
+
+.line-2-written {
+    font-size: 4.3rem;
+    font-weight: 900;
+    margin-bottom: 13px;
+}
+
+.line-3-written {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.line-4-written {
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.line-5-input {
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    background: transparent;
+    font-size: 1rem;
+    padding: 1.5rem 1rem 0.5rem;
+    width: 330px;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 1.5rem 1rem 0.5rem;
+    color: white;
+    display: flex;
+
+}
+
+.line-6-button {
+    width: 210px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    user-select: none;
+    border: 0px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+
+/* partician of main */
+.partician-of-main {
+    height: 0.5rem;
+    border-top-left-radius: 1rem;
+    background-color: rgb(35, 35, 35);
+    border-bottom-right-radius: 1rem;
+}
+
+
+
+/* section 1 plans to buy */
+.section-1-plans-to-buy {
+    height: 400px;
+    /* background-color: rgba(165, 42, 42, 0.162); */
+}
+
+.text-of-section-1 {
+    color: white;
+}
+
+.section-1-main {
+    width: 76vw;
+    margin: 65px auto;
+}
+
+.text-of-section-1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.list-of-plans {
+    display: flex;
+    /* border: 2px solid red; */
+    /* height: 260px; */
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.plan-1-to-buy {
+    width: 19vw;
+    /* background-color: aqua; */
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #922556 0%, #210d0e 99.51%);
+    z-index: -1;
+}
+
+.plan-2-to-buy {
+    width: 19vw;
+    /* background-color: rgb(43, 255, 0); */
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #922556 0%, #210d0e 99.51%);
+    z-index: -1;
+}
+
+.plan-3-to-buy {
+    width: 19vw;
+    /* background-color: rgb(166, 0, 255); */
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #922556 0%, #210d0e 99.51%);
+    z-index: -1;
+}
+
+.plan-4-to-buy {
+    width: 19vw;
+    /* background-color: rgb(255, 230, 0); */
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #922556 0%, #210d0e 99.51%);
+    z-index: -1;
+
+}
+
+.section-1-heading-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    /* padding: 20px; */
+    align-self: flex-end;
+}
+
+.section-1-about-plan {
+    font-size: 1.125rem;
+    font-weight: 400;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 1.5rem;
+    margin-left: 0px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.7);
+    /* padding: 20px; */
+}
+
+.section-1-price {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+}
+
+.plan-1-to-buy-in {
+    width: 80%;
+    height: 98%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+
+}
+
+.plan-2-to-buy-in {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 98%;
+}
+
+.plan-3-to-buy-in {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 98%;
+}
+
+.plan-4-to-buy-in {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 98%;
+}
+
+
+
+/* section 2 reasons to buy  */
+
+
+
+.section-2-reasons-to-buy {
+    height: 450px;
+    /* background-color: rgba(165, 42, 42, 0.162); */
+}
+
+.text-of-section-2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-top: 65px;
+}
+
+.list-of-reasons {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 320px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.section-2-main {
+    width: 76vw;
+    margin: 12px auto;
+}
+
+.reason-1-to-buy {
+    width: 19vw;
+    /* background-color: aqua; */
+    border-radius: 1rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    z-index: -1;
+    position: relative;
+}
+
+.reason-2-to-buy {
+    width: 19vw;
+    /* background-color: rgb(43, 255, 0); */
+    border-radius: 1rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    z-index: -1;
+    position: relative;
+}
+
+.reason-3-to-buy {
+    width: 19vw;
+    /* background-color: rgb(166, 0, 255); */
+    border-radius: 1rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    z-index: -1;
+    position: relative;
+}
+
+.reason-4-to-buy {
+    width: 19vw;
+    /* background-color: rgb(255, 230, 0); */
+    border-radius: 1rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    z-index: -1;
+    position: relative;
+
+}
+
+.section-2-heading-name {
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.section-2-price-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    /* height: 100px; */
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+}
+
+.section-2-price-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+
+}
+
+.section-2-price-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+
+}
+
+.section-2-price-4 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5px;
+    right: 4px;
+
+}
+
+.reason-1-to-buy-in {
+    width: 70%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+.reason-2-to-buy-in {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+}
+
+.reason-3-to-buy-in {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+}
+
+.reason-4-to-buy-in {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 98%;
+}
+
+/* section 5 freaquently asked ques  */
+.section-5-frequently-asked-ques {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.sec-5-txt {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.list-of-questions {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.sec-5-ques-common {
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 70vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sec-5-svg-plus {
+    position: absolute;
+    right: 20px;
+}
+
+.sec-5-main {
+    margin-bottom: 35px;
+}
+
+/* section 4 games  */
+
+.main-area-of-sec-4 {
+    width: 76vw;
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(97deg, #45172B 1.27%, #120C1F 75.23%);
+    border-radius: 1rem;
+}
+
+.section-4-games {
+    height: 550px;
+}
+
+.img-in-sec-4 {
+    object-fit: contain;
+    object-position: center center;
+    /* width: 740px; */
+    position: absolute;
+    right: -245px;
+    top: -95px;
+    height: 630px;
+
+}
+
+.txt-of-sec-4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 65px;
+    width: 76vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.area-of-sec-4-in {
+    display: flex;
+    height: 100%;
+}
+
+.img-main-sec-4-in {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.red-bat-chit {
+    background: radial-gradient(59.83% 83.88% at 100% 100%, rgba(229, 9, 20, 0.50) 0%, rgba(23, 43, 71, 0.00) 100%);
+    z-index: 10;
+    width: 30rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.img-main-sec-4 {
+    height: 100%;
+    width: 38vw;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.text-written-in-sec-4 {
+    width: 38vw;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.text-written-in-sec-4-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.text-written-in-sec-4-body {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.section-foot-button {
+    width: 220px;
+    box-sizing: border-box;
+    height: 55px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-start;
+    letter-spacing: normal;
+    line-height: 1;
+    user-select: none;
+    border: 0px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+.section-foot-enter-email {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.label-for-sec-foot-email {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-foot-enter-email-in {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 55px;
+
+}
+
+.foot-email-input-in {
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    background: transparent;
+    font-size: 1rem;
+    padding: 1.5rem 1rem 0.5rem;
+    width: 370px;
+    box-sizing: border-box;
+    height: 55px;
+    padding: 1.5rem 1rem 0.5rem;
+    color: white;
+    display: flex;
+}
+
+/* section video 1  */
+.main-of-sec-video-1 {
+    display: flex;
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.text-of-sec-video-1 {
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.image-video-of-sec-video-1 {
+    width: 50%;
+    position: relative;
+}
+
+.video-of-sec-img-1 {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.video-of-sec-video-1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.him-him {
+    width: 90vw;
+    margin: 0;
+}
+
+.pri-pri {
+    display: flex;
+    justify-content: center;
+}
+
+.text-of-sec-video-1-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.text-of-sec-video-1-body {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+    text-align: left;
+}
+
+.video-of-sec-video-1 {
+    width: 400px;
+}
+
+.video-of-sec-img-1-in {
+    width: 500px;
+}
+
+.main-of-sec-video-1 {
+    margin-bottom: 65px;
+}
+
+.video-of-sec-video-1-2 {
+    width: 320px;
+    position: absolute;
+    top: 2px;
+    left: 51px;
+}
+
+.section-video-1-2 {
+    margin-top: 40px;
+}
+
+
+/* footer  */
+.footer-options div ul li a {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px;
+}
+
+.footer-options {
+    display: flex;
+    margin-top: 20px;
+}
+
+.end {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.ques-call {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.footer-main {
+    width: 76vw;
+    margin: auto;
+}
+
+.ques-call a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/* responsive  */
+
+@media screen and (max-width: 1007px) {
+    .space-main {
+        height: 98vh;
+        /* width: 100vw; */
+        width: 1007px;
+    }
+
+    .sec-5-ques-common {
+        width: 900px;
+    }
+
+    .section-5-frequently-asked-ques {
+        width: 900px;
+    }
+
+    .section-foot-enter-email {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .opacity {
+        height: 98vh;
+        /* width: 100vw; */
+        width: 1007px;
+    }
+
+    .partician-of-main {
+        width: 1007px;
+    }
+
+    .main-of-sec-video-1 {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: 50px 15%;
+
+    }
+
+    .text-of-sec-video-1 {
+        width: 100%;
+    }
+
+    .image-video-of-sec-video-1 {
+        margin-top: 30px;
+    }
+
+    .line-1-written {
+        font-size: 2rem;
+    }
+
+    .line-2-written {
+        font-size: 2rem;
+    }
+
+    .line-3-written {
+        font-size: 1rem;
+    }
+
+    .line-4-written {
+        font-size: 0.7rem;
+    }
+
+    .written-in {
+        width: 500px;
+    }
+
+    .list-of-plans {
+        width: 800px;
+        margin: 15px -2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-1-plans-to-buy {
+        height: 1000px;
+    }
+
+    .plan-1-to-buy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .plan-2-to-buy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .plan-3-to-buy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .plan-4-to-buy {
+        width: 100%;
+        height: 200px;
+    }
+
+    .plan-1-to-buy-in {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.25fr 1fr 1.25fr;
+    }
+
+    .plan-2-to-buy-in {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.25fr 1fr 1.25fr;
+    }
+
+    .plan-3-to-buy-in {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.25fr 1fr 1.25fr;
+    }
+
+    .plan-4-to-buy-in {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.25fr 1fr 1.25fr;
+    }
+
+    .section-1-price {
+        display: flex;
+        align-items: center;
+    }
+
+    .him-him {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        max-width: 700px;
+    }
+
+    .list-of-reasons {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+    }
+
+    .reason-1-to-buy {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-1-to-buy-in {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-2-to-buy {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-2-to-buy-in {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-3-to-buy {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-3-to-buy-in {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-4-to-buy {
+        width: 100%;
+        height: 150px;
+    }
+
+    .reason-4-to-buy-in {
+        width: 100%;
+        height: 150px;
+    }
+
+    .section-2-reasons-to-buy {
+        height: 800px;
+    }
+
+    .section-2-main {
+        margin: 12px 40px;
+    }
+
+    .section-2-heading-name {
+        font-weight: 600;
+        margin-left: 30px;
+    }
+
+    .pri-pri {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .area-of-sec-4-in {
+        display: flex;
+        flex-direction: column;
+        width: 850px;
+        height: 700px;
+    }
+
+    .section-4-games {
+        height: 800px;
+    }
+
+    .main-area-of-sec-4 {
+        height: 700px;
+        width: 850px;
+        margin: 0 12%;
+    }
+
+    .img-in-sec-4 {
+        right: -185px;
+        top: 278px;
+    }
+
+    .text-written-in-sec-4 {
+        width: 627px;
+    }
+}
+
+@media screen and (min-width: 1328px) {
+    .list-of-plans {
+        height: 260px;
+    }
+}
